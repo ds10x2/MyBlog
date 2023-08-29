@@ -9,6 +9,7 @@
  align-items: center;
  border-radius: 0 0 20px 20px; 
  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+ position: fixed;
  transform: translateY(-50px);
  transition: 0.5s;
 }
@@ -52,9 +53,6 @@
   color: #ECA4A4;
 }
 
-.main{
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content{
+  height: 4000px;
 }

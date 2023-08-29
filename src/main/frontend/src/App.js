@@ -13,23 +13,12 @@ function Nav(){
   );
 }
 
-function Title(){
-  return (
-    <div class = "main-title">
-      <div>My Page,</div>
-      <div>My Responsibility</div>
-    </div>
-  );
-}
-
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-      <div class="main">
-        <Title></Title>
-      </div>
+      <div class="content"></div>
     </div>
   )
 }
