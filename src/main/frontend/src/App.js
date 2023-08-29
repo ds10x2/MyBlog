@@ -13,9 +13,25 @@ function Nav(){
   );
 }
 
+function Title(){
+  return (
+    <div class = "main-title">
+      <div>My Page,</div>
+      <div>My Responsibility</div>
+    </div>
+  );
+}
+
 
 function App() {
-  return (<Nav></Nav>);
+  return (
+    <div>
+      <Nav></Nav>
+      <div class="main">
+        <Title></Title>
+      </div>
+    </div>
+  )
 }
 
 export default App;

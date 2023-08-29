@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;900&display=swap');
 
 .navigation{
- width: 1000px;
+ width: 100vh;
  height: 70px;
  background-color: #fff;
  display: flex;
@@ -9,6 +9,12 @@
  align-items: center;
  border-radius: 0 0 20px 20px; 
  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+ transform: translateY(-50px);
+ transition: 0.5s;
+}
+
+.navigation:hover{
+  transform: translateY(0px);
 }
 
 
@@ -46,3 +52,9 @@
   color: #ECA4A4;
 }
 
+.main{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
