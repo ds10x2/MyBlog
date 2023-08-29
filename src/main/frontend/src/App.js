@@ -13,12 +13,15 @@ function Nav(){
   );
 }
 
+function Title(){
+
+}
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-      <div class="content"></div>
+      <Title></Title>
     </div>
   )
 }
