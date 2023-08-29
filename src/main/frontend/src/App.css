@@ -4,6 +4,7 @@
  width: 1000PX;
  height: 70px;
  background-color: #fff;
+ opacity : 80%;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -18,6 +19,7 @@
 
 .navigation:hover{
   transform: translateY(0px);
+  opacity : 100%;
 }
 
 

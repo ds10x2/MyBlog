@@ -1,6 +1,5 @@
 import './App.css';
 
-
 function Nav(){
   return (
     <div class="navigation">
@@ -13,15 +12,10 @@ function Nav(){
   );
 }
 
-function Title(){
-
-}
-
 function App() {
   return (
     <div>
       <Nav></Nav>
-      <Title></Title>
     </div>
   )
 }
